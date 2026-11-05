@@ -1,0 +1,6 @@
+{
+  "name": "Portal Interaktif Manajemen SDM",
+  "description": "Platform informasi dan alat interaktif manajemen Sumber Daya Manusia modern dengan kalkulator turnover, siklus hidup karyawan, kuis HR, dan direktori strategi SDM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
