@@ -1,5 +1,4 @@
-import React from 'react';
-import { Users, Heart } from 'lucide-react';
+import { Users } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (sectionId: string) => void;

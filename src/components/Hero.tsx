@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ArrowDown, Sparkles, TrendingDown, UsersRound, Award } from 'lucide-react';
+import { ArrowDown, Sparkles, UsersRound } from 'lucide-react';
+import heroImgSrc from '../assets/images/hero_hr_management_1793886952403.jpg';
 
 interface HeroProps {
   onExplore: (sectionId: string) => void;
@@ -7,7 +8,6 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onExplore }) => {
   const [imgError, setImgError] = useState(false);
-  const heroImgSrc = '/src/assets/images/hero_hr_management_1793886952403.jpg';
 
   return (
     <section className="relative overflow-hidden bg-white border-b border-slate-200 pt-10 pb-16 lg:pt-16 lg:pb-24">
@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onExplore }) => {
 
           {/* Right Column: Hero Visual Image */}
           <div className="lg:col-span-5">
-            <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-100 aspect-16/10 lg:aspect-4/3 group">
+            <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-100 aspect-[16/10] lg:aspect-[4/3] group">
               {!imgError ? (
                 <img
                   src={heroImgSrc}

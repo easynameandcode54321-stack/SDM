@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HelpCircle, CheckCircle2, XCircle, Award, RotateCcw, ArrowRight, Lightbulb, Sparkles } from 'lucide-react';
+import { HelpCircle, CheckCircle2, XCircle, Award, RotateCcw, ArrowRight, Lightbulb } from 'lucide-react';
 import { HR_QUIZ_QUESTIONS } from '../utils/hr-calculations';
 
 export const HrQuiz: React.FC = () => {
